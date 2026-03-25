@@ -1,6 +1,13 @@
 ============================================================
-       SO-ARM100 PICK AND PLACE SIMULATION - RUN GUIDE
+       SO-ARM100 PICK AND PLACE SIMULATION 
 ============================================================
+# SO-ARM100 Pick and Place Simulation
+
+![Simulation Intro](images/intro_pic.png)
+
+This repository contains a ROS 2 (Humble) and Gazebo simulation...
+
+
 
 PREREQUISITES - Run Once
 ----------------------------------------------------------
@@ -128,3 +135,14 @@ source install/setup.bash
 ros2 launch so_arm100_description gazebo.launch.py
 
 ============================================================
+---
+
+## Simulation Results
+
+Here is the robotic arm successfully detecting the blue cube and completing the pick-and-place task:
+
+**Final Position:**
+![Final Result](images/result_pic.png)
+
+**Action Video:**
+<video src="images/result_video.mp4" width="800" controls></video>
