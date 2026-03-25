@@ -1,0 +1,13 @@
+# ROS 2 workspace directories
+build/
+install/
+log/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.egg-info/
+
+# specific files I see in your tree
+frames_*.gv
+frames_*.pdf
