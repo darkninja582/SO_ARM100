@@ -14,7 +14,6 @@ setup(
     install_requires=['setuptools'],
     entry_points={
         'console_scripts': [
-            'pick_and_place = so_arm100_control.pick_and_place:main',
             
             'move_arm = so_arm100_control.move_arm:main',
         ],
